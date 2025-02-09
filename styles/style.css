@@ -1,0 +1,59 @@
+/* General style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1c2c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+}
+
+/* Header Section */
+.header {
+    width: 90%;
+    overflow: hidden;
+}
+
+.header header {
+    float: left;
+    width: 70%;
+}
+
+.header section {
+    float: right;
+    width: 30%;
+    text-align: right;
+}
+
+.name {
+    font-size: 55px;
+    margin: 0;
+}
+
+/* Content Section */
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #1a1c2c;
+}
